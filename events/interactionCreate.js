@@ -12,7 +12,7 @@ module.exports.run = async (client, interaction) => {
         } 
     
     process.on("unhandledRejection", err=> {
-    if(err == "DiscordAPIError: Missibng Access") return console.log("봇에게 슬래쉬 커맨드를 서버에 푸쉬 할 권리가 없어서 서버에 슬래쉬 커맨드를 푸쉬하지 못했습니다.")
+    if(err == "DiscordAPIError: Missibng Access") return console.log("봇이 서버에 슬래쉬 커맨드를 푸쉬하는 권한이 없습니다")
         console.error(err)
     })
 }
