@@ -8,3 +8,5 @@ config.json 의 봇의 토큰을 넣어주시고 바로 실행하시면 됩니�
 utils, models 폴더는 삭제해주셔도 됩니다.
 
 src에 있는 commands, slashCommands 파일을 삭제할 경우 실행이 안되니 꼭 지우지 마세요!!!
+
+start.bat 파일로도 봇을 실행시킬수 있습니다!
