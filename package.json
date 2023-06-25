@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^13.4.0",
+    "foreach": "^2.0.6",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "ps": "^1.0.0"
+  }
+}
