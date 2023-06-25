@@ -3,7 +3,7 @@
 module.exports.run = async (client) => {
     let number = 0
     setInterval(() => {
-        const list = ["테스트", "연구", "몰?루"]
+        const list = ["테스트1", "테스트2", "테스트3"]
         if(number == list.length) number = 0
         client.user.setActivity(list[number],{
             type:"PLAYING"
